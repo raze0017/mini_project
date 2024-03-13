@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NutriTra</title>
+<style>
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: white;
+    margin: 0;
+    padding: 0;
+  }
+  #navbar {
+    background-color: #333;
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    overflow: auto;
+  }
+  #navbar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+    display: block;
+  }
+  #navbar a:hover {
+    background-color: #575757;
+  }
+  #main-content {
+    margin-left: 200px;
+    padding: 20px;
+  }
+  .section {
+    background-color: #1e1e1e;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  .section h2 {
+    margin-top: 0;
+  }
+  .section a {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+  .section a:hover {
+    text-decoration: underline;
+  }
+  .section p {
+    margin-bottom: 10px;
+  }
+</style>
+</head>
+<body>
+<div id="navbar">
+  <a href="#">Sign up</a>
+  <a href="#">Log in</a>
+  <a href="#">Dashboard</a>
+  <a href="#">Log meal</a>
+  <a href="#">Food</a>
+  <a href="#">Profile</a>
+  <a href="#">Log out</a>
+</div>
+<div id="main-content">
+  <div class="section" id="todays-intake">
+    <h2>Today's Intake</h2>
+    <p><a href="#">Log Breakfast</a></p>
+    <p><a href="#">Track Lunch Nutrients</a></p>
+    <p><a href="#">Add Dinner Calories</a></p>
+    <p><a href="#">View Snack Details</a></p>
+  </div>
+  <div class="section" id="tomorrows-plan">
+    <h2>Tomorrow's Plan</h2>
+    <p><a href="#">Log Breakfast Meal</a></p>
+    <p><a href="#">Discover New Recipes</a></p>
+  </div>
+  <div class="section" id="weekly-goals">
+    <h2>Weekly Goals</h2>
+    <p><a href="#">Set Meal Plan</a></p>
+    <p><a href="#">Track Water Intake</a></p>
+    <p><a href="#">Review Nutritional Progress</a></p>
+  </div>
+</div>
+</body>
+</html>
